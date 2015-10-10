@@ -12,11 +12,25 @@
     "should": "^7.1.0"
   },
   "scripts": {
-    "start": "./node_modules/.bin/webpack",
-    "test": "./node_modules/.bin/mocha --compilers js:babel/register --require should --recursive --ui bdd --reporter spec"
+    "start": "webpack",
+    "test": "mocha --compilers js:babel/register --require should --recursive --ui bdd --reporter spec"
   },
   "author": "xananax@yelostudio.com",
-  "license": "MIT"
+  "license": "MIT",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Xananax/walkobj.git"
+  },
+  "keywords": [
+    "clone",
+    "walk",
+    "recursive"
+  ],
+  "bugs": {
+    "url": "https://github.com/Xananax/walkobj/issues"
+  },
+  "homepage": "https://github.com/Xananax/walkobj#readme"
 }
-
-
